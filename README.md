@@ -29,7 +29,10 @@ O *script* contém as seguintes funções:
 - `mapa_funcionarios(data)`: Constroi o mapa da distribuição de funcionários por estados.
 - `const_export_mapa(data)`: Constrói e exporta o mapa de funcionários.
 
-## Uso
+## Arquivo Princial
+O arquivo principal deste projeto é o [analise_descritiva.ipynb](https://github.com/ADA-Hack-Grupo-DD3/Analise_Descritiva/blob/main/analise_descritiva.ipynb) que é um arquivo notebook, contendo todo o processo.
+
+## Guia Sobre o Código
 Para usar este script, você deve primeiro carregar o conjunto de dados. Em seguida, você pode chamar as funções conforme necessário para realizar a análise desejada. Por exemplo:
 
 ```python
@@ -51,3 +54,5 @@ const_export_mapa(data)
 ```
 
 Este script é uma ferramenta para entender a a base de dados de diversidade da Corp Solutions. Ele fornece insights visuais e quantitativos que podem ajudar análise de diversidae da empresa.
+
+[Voltando para a Raiz do Projeto!](https://github.com/ADA-Hack-Grupo-DD3/main-hackton)
