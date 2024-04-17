@@ -1,5 +1,18 @@
 # Analise_Descritiva
-Repositório com o *script* e saída da análise descritiva dos dados tratados
+O repositório é dedicado a armazenar dados de entrada, o *script* e as saídas gráficas geradas para a análise descritiva dos dados concedidos para a análise de diversidade da empresa *Corp Solutions*.
+
+Projeto realizado para o Ada Hack de 2024, Hackaton realizados para os alunos concluintes do Programa Vem Ser Tech, da Ada Tech em parceria com o iFood.
+
+
+## Equipe DD3:
+- [Amanda Souza](https://www.linkedin.com/in/amanda-rs/)
+- [Gabriel Matina](https://www.linkedin.com/in/gabrielmatina/)
+- [Jared Leite](https://www.linkedin.com/in/jared-f-leite-a8351a78/)
+- [Lívia Nobre](https://www.linkedin.com/in/livia-nobre472/)
+- [Márcia Oliveira](https://www.linkedin.com/in/marciaoliveira/)
+- [Maurício Gonçalves](https://www.linkedin.com/in/mauricio-goncalves/)
+- [Maurício B. da Rocha](https://www.linkedin.com/in/mauriciobenjamin700/)
+- [Renan de F. Bueno](https://www.linkedin.com/in/renandefraga/)
 
 > O *Script* foi realizado por [Amanda Souza](https://www.linkedin.com/in/amanda-rs/) para o Ada Hack 2024.
 
@@ -28,9 +41,12 @@ O *script* contém as seguintes funções:
 - `const_export_graficos(data)`: Agrupa as construções e exportações dos gráficos de Gênero, Senioridade, Raça e Formação.
 - `mapa_funcionarios(data)`: Constroi o mapa da distribuição de funcionários por estados.
 - `const_export_mapa(data)`: Constrói e exporta o mapa de funcionários.
+- `pop_por_regiao()`: Constrói uma tabela e exibe na tela a distribuição regional da população brasileira
+- `funcionario_por_regiao(data)`: Constrói uma tabela e exibe na tela a distribuição regional dos funcionários
+- `formacao_por_raca(data)`:  Constrói uma tabela e exibe na tela a distribuição da formação entre as raças dos funcionários
 
 ## Arquivo Princial
-O arquivo principal deste projeto é o [analise_descritiva.ipynb](https://github.com/ADA-Hack-Grupo-DD3/Analise_Descritiva/blob/main/analise_descritiva.ipynb) que é um arquivo notebook, contendo todo o processo.
+O arquivo principal da análise descritiva do projeto é o [analise_descritiva.ipynb](https://github.com/ADA-Hack-Grupo-DD3/Analise_Descritiva/blob/main/analise_descritiva.ipynb) que é um arquivo notebook, contendo todo o processo.
 
 ## Guia Sobre o Código
 Para usar este script, você deve primeiro carregar o conjunto de dados. Em seguida, você pode chamar as funções conforme necessário para realizar a análise desejada. Por exemplo:
