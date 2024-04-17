@@ -1,3 +1,4 @@
+[Voltando para a Raiz do Projeto!](https://github.com/ADA-Hack-Grupo-DD3/main-hackton)
 # Analise_Descritiva
 O repositório é dedicado a armazenar dados de entrada, o *script* e as saídas gráficas geradas para a análise descritiva dos dados concedidos para a análise de diversidade da empresa *Corp Solutions*.
 
@@ -67,8 +68,16 @@ const_export_graficos(data)
 
 # Exportação do mapa
 const_export_mapa(data)
+
+# Mapeando a distribuição geográfica brasileira e dos funcionários
+pop_por_regiao()
+funcionario_por_regiao(data)
+
+# Mapeando a distribuição das formações entre as raças dos funcionários
+formacao_por_raca(data)
+
 ```
 
-Este script é uma ferramenta para entender a a base de dados de diversidade da Corp Solutions. Ele fornece insights visuais e quantitativos que podem ajudar análise de diversidae da empresa.
+Este *script* é uma ferramenta para entender a a base de dados de diversidade da **Corp Solutions**. Ele fornece *insights* visuais e quantitativos que podem ajudar análise de diversidade da empresa.
 
-[Voltando para a Raiz do Projeto!](https://github.com/ADA-Hack-Grupo-DD3/main-hackton)
+
